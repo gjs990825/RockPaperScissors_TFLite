@@ -42,12 +42,6 @@ class MainActivity : AppCompatActivity() {
         if (savedInstanceState != null) {
             currentPhotoPath = savedInstanceState.getString("currentPhotoPath", "")
             Log.w(TAG, "restoring $currentPhotoPath")
-
-//            val visibility = savedInstanceState.getInt("textVisibility", View.VISIBLE)
-//            binding.tvPlaceholder.post {
-//                binding.tvPlaceholder?.visibility = visibility
-//                Log.w(TAG, "restore:textVisibility: ${binding.tvPlaceholder?.visibility}")
-//            }
         }
 
         binding.buttonCaptureImage.setOnClickListener {
