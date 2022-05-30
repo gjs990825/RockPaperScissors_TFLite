@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RockPaperScissors</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="tflite_demo">TFLite Rock Paper Scissors Demo</string>
+    <string name="win">Win</string>
+    <string name="sample_number">123</string>
+    <string name="lose">Lose</string>
+    <string name="tie">Tie</string>
+    <string name="summary">Summary</string>
+</resources>
